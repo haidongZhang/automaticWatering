@@ -20,16 +20,19 @@
 
 土壤湿度传感器可能会被拔出或者损坏，可能会导致每次探测值过高导致频繁浇水。为了避免该问题，设置了防过浇定时器，24小时之内最多浇一次水。如果土壤传感器被拔出或损坏，自动浇花系统将退化为定时浇水系统，每天浇一次水，在保证不过浇的情况下还能继续工作。
 
-##效果图
-![Arduino](https://github.com/haidongZhang/automaticWatering/blob/master/image/arduino.png "Arduino")
+Timer库：
+[https://github.com/JChristensen/Timer](https://github.com/JChristensen/Timer)
 
-![Preview](https://github.com/haidongZhang/automaticWatering/blob/master/image/preview.png)
+##效果图
+![Arduino](https://github.com/haidongZhang/automaticWatering/blob/master/image/arduino.png =600px)
+
+![Preview](https://github.com/haidongZhang/automaticWatering/blob/master/image/preview.png =600px)
 
 ##可改进地方
 * 定时器功能可以换成休眠功能，每次等待时可将Arduino切换至休眠状态，节省耗电。
 * 本系统可扩展至对多盆花进行浇水，扩展后的效果图如下：
 
-![mutiple watering](https://github.com/haidongZhang/automaticWatering/blob/master/image/multiple-watering.png)
+![mutiple watering](https://github.com/haidongZhang/automaticWatering/blob/master/image/multiple-watering.png =600px)
 
 ##缺点
 * 小水泵功率较低，出水量较少，如果扩展多个花盆可能喷头没有足够水压将水喷散出来。
