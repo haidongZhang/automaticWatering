@@ -24,15 +24,15 @@ Timer库：
 [https://github.com/JChristensen/Timer](https://github.com/JChristensen/Timer)
 
 ##效果图
-![Arduino](https://github.com/haidongZhang/automaticWatering/blob/master/image/arduino.png =600px)
+![Arduino](https://github.com/haidongZhang/automaticWatering/blob/master/image/arduino.png )
 
-![Preview](https://github.com/haidongZhang/automaticWatering/blob/master/image/preview.png =600px)
+![Preview](https://github.com/haidongZhang/automaticWatering/blob/master/image/preview.png )
 
 ##可改进地方
 * 定时器功能可以换成休眠功能，每次等待时可将Arduino切换至休眠状态，节省耗电。
 * 本系统可扩展至对多盆花进行浇水，扩展后的效果图如下：
 
-![mutiple watering](https://github.com/haidongZhang/automaticWatering/blob/master/image/multiple-watering.png =600px)
+![mutiple watering](https://github.com/haidongZhang/automaticWatering/blob/master/image/multiple-watering.png )
 
 ##缺点
 * 小水泵功率较低，出水量较少，如果扩展多个花盆可能喷头没有足够水压将水喷散出来。
